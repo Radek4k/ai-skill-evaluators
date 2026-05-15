@@ -30,7 +30,7 @@ All skills in this repository aim for strict adherence to the **agentskills.io v
 #### Option 1: Quick Add (Recommended)
 Add individual skills directly to your project:
 ```bash
-npx skills add https://github.com/Radek4k/ai-skill-evaluators/blob/main/skills/skill-quality-checker/SKILL.md
+npx skills add radek4k/ai-skill-evaluators
 ```
 
 #### Option 2: Full Clone
