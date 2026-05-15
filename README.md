@@ -20,6 +20,18 @@ All skills in this repository aim for strict adherence to the **agentskills.io v
 - **Portability**: Relative path usage for environment independence.
 - **Activation**: Clear, actionable instructions for AI execution.
 
+## 📦 Installation & Prerequisites
+
+### Prerequisites
+- **Node.js**: Required for running the validation tools and the `skills` CLI. You can download it from [nodejs.org](https://nodejs.org/).
+
+### Quick Install
+You can easily add individual skills from this repository to your project using the `skills` CLI:
+
+```bash
+npx skills add https://github.com/Radek4k/ai-skill-evaluators/blob/main/skills/skill-quality-checker/
+```
+
 ## ⚙️ How to Use
 
 1. **Clone the repository**:
