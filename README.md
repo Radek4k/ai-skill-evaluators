@@ -34,19 +34,22 @@ npx skills add https://github.com/Radek4k/ai-skill-evaluators/blob/main/skills/s
 ```
 
 #### Option 2: Full Clone
-Clone the entire repository to access all evaluators and tools:
+Clone the entire repository to access all evaluators and tools (actually there is only one skill for now):
 ```bash
 git clone https://github.com/Radek4k/ai-skill-evaluators.git
 ```
 
 ## ⚙️ How to Use
 
-Once installed or cloned, navigate to the specific skill directory (e.g., `skills/skill-quality-checker/`) and follow the instructions in its `SKILL.md` file. 
+These skills are specifically designed to be discovered and executed by **AI Agents** that support the `agentskills.io` standard.
 
-Generally, you can run validation using:
-```bash
-npx skills-ref validate <path_to_skill_to_check>
-```
+### Workflow
+Once the skill is added to an agent's workspace:
+1. **Discovery**: The agent identifies the evaluator through the metadata in its `SKILL.md` file.
+2. **Activation**: The agent reads and follows the instructions in the evaluator to audit or validate other skills.
+3. **Report**: The agent provides a structured report or feedback based on the validation results.
+
+No manual execution is required by the developer; simply ensure the skill is present in the `.agents/skills/` directory of your project.
 
 ## 🤝 Contributing
 
